@@ -724,7 +724,7 @@
 	<string.h>
 	"validar.h"
 
-1508435734 source:c:\users\ari\desktop\parcial 1\cascara - final\contrataciones.c
+1508439454 source:c:\users\ari\desktop\parcial 1\cascara - final\contrataciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -737,9 +737,9 @@
 1508433648 c:\users\ari\desktop\parcial 1\cascara - final\pantallas.h
 	"validar.h"
 
-1508436958 c:\users\ari\desktop\parcial 1\cascara - final\validar.h
+1508439887 c:\users\ari\desktop\parcial 1\cascara - final\validar.h
 
-1508432286 source:c:\users\ari\desktop\parcial 1\cascara - final\main.c
+1508440885 source:c:\users\ari\desktop\parcial 1\cascara - final\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -753,19 +753,19 @@
 	"contrataciones.h"
 	"validar.h"
 
-1508437530 source:c:\users\ari\desktop\parcial 1\cascara - final\validar.c
+1508440871 source:c:\users\ari\desktop\parcial 1\cascara - final\validar.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"validar.h"
 
-1508436511 source:c:\users\ari\desktop\parcial 1\cascara - final\informes.c
+1508441502 source:c:\users\ari\desktop\parcial 1\cascara - final\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"informes.h"
 
-1508432477 source:c:\users\ari\desktop\parcial 1\cascara - final\pantallas.c
+1508439454 source:c:\users\ari\desktop\parcial 1\cascara - final\pantallas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

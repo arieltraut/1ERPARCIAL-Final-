@@ -13,6 +13,7 @@ int val_getPrecio(float* destino, char* mensaje,char* mensajeError,int intentos,
 int val_soloNumeros(char* buffer);
 
 int val_getCuit(char* destino, char* mensaje,char* mensajeError,int intentos,int limite);
+int val_cuit(char* buffer);
 
 int val_getAlfanumerico(char* destino, char* mensaje,char* mensajeError,int intentos,int limite);
 int val_esAlfaNumerico(char str[]);

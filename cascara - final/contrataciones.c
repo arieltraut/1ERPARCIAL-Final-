@@ -84,18 +84,18 @@ int contra_alta(sPantalla arrayPantalla[],sContrataciones arrayContratacion[], i
 
     if (arrayContratacion != NULL && indexVacio >=0 && indexVacio < lenContratacion)
     {
-        if(val_getUnsignedInt(&bIdPantalla,"\nElija pantalla a contratar ingresando su ID\n","\nSolo numeros:\n",2,0,9999999)==0)
+        if(val_getUnsignedInt(&bIdPantalla,"\nElija pantalla a contratar ingresando su ID\n","\nSolo numeros.\n",2,0,9999999)==0)
         {
             int index = pantalla_buscarIndicePorId(arrayPantalla,lenPantalla,bIdPantalla);
             if (index != -1)
             {
-                if (val_getUnsignedInt(&diasPublicacion,"\nIngrese dias que dura la publicacion\n","\nValor invalido\n",2,1,365)==0)
+                if (val_getUnsignedInt(&diasPublicacion,"\nIngrese dias que dura la publicacion\n","\nValor invalido, ingrese nuevamente\n",2,1,365)==0)
                 {
 
-                   if (val_getCuit(bCuit,"\nIngrese CUIT\n","\nValor invalido\n",2,51)==0) //ver
+                   if (val_getCuit(bCuit,"\nIngrese CUIT\n","\nCUIT invalido, ingrese nuevamente\n",2,51)==0) //ver
                    {
 
-                        if (val_getAlfanumerico(bNombreArchivo,"\nIngrese nombre archivo de video\n", "Nombre invalido",2,51)==0)
+                        if (val_getAlfanumerico(bNombreArchivo,"\nIngrese nombre archivo de video\n", "Nombre invalido, ingrese nuevamente",2,51)==0)
                         {
                             idNuevo = contra_generarProximoId();
 
@@ -138,7 +138,7 @@ int contra_modificar(sContrataciones arrayContratacion[], sPantalla arrayPantall
 
     if (arrayPantalla != NULL && arrayContratacion != NULL && lenContrataciones > 0 && lenPantalla > 0)
     {
-        if (val_getCuit(bCuit,"\nIngrese CUIT\n","\nValor invalido\n",2,51)==0)
+        if (val_getCuit(bCuit,"\nIngrese CUIT\n","\nCUIT invalido, ingrese nuevamente\n",2,51)==0)
         {
             for(indexContra=0; indexContra<lenContrataciones; indexContra++)
             {
@@ -199,7 +199,7 @@ int contra_cancelar(sContrataciones arrayContratacion[], sPantalla arrayPantalla
 
     if (arrayPantalla != NULL && arrayContratacion != NULL && lenContrataciones > 0 && lenPantalla > 0)
     {
-        if (val_getCuit(bCuit,"\nIngrese CUIT\n","\nCUIT invalido\n",2,51)==0)
+        if (val_getCuit(bCuit,"\nIngrese CUIT\n","\nCUIT invalido, ingrese nuevamente\n",2,51)==0)
         {
             for(indexContra=0; indexContra<lenContrataciones; indexContra++)
             {
@@ -223,7 +223,7 @@ int contra_cancelar(sContrataciones arrayContratacion[], sPantalla arrayPantalla
                 {
                     if (bIdPantalla != -1)
                     {
-                        if (val_getNombre(bConfirm,"\nDesea cancelar las contrataciones asociadas al ID ingresado? S/N?\n","\nValor invalido\n",2,3)==0);
+                        if (val_getNombre(bConfirm,"\nDesea cancelar las contrataciones asociadas al ID ingresado? S/N?\n","\nValor invalido, ingrese solo S o N\n",2,3)==0);
                         {
                             if (bConfirm[0] == 'S' || bConfirm[0]=='s')
                             {

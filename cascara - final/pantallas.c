@@ -84,11 +84,11 @@ int pantalla_alta(sPantalla arrayPantalla[], int len)
      {
         if (val_getUnsignedInt(&bTipoPantalla,"\nIngrese tipo pantalla:\n  LCD [0]\n  LED [1]\n","\nIngrese solo numeros 0 o 1\n",2,0,1)==0)
         {
-            if (val_getAlfanumerico(bNombre, "\nIngrese Nombre\n", "\nNombre invalido\n",3,50)==0) //hacer define en h para 50
+            if (val_getAlfanumerico(bNombre, "\nIngrese Nombre\n", "\nNombre invalido, ingrese nuevamente\n",3,50)==0) //hacer define en h para 50
             {
-               if (val_getAlfanumerico(bDireccion, "\nIngrese Direccion\n", "\nDireccion invalida\n",3,50)==0)
+               if (val_getAlfanumerico(bDireccion, "\nIngrese Direccion\n", "\nDireccion invalida, ingrese nuevamente\n",3,50)==0)
                {
-                  if(val_getPrecio(&bPrecio,"\nIngrese Precio\n","\nError:\n",2,0,9999)==0)
+                  if(val_getPrecio(&bPrecio,"\nIngrese Precio\n","\nValor invalido, ingrese nuevamente:\n",2,0,9999)==0)
                   {
 
                         idNuevo = pantalla_generarProximoId();
@@ -164,12 +164,12 @@ int pantalla_modificar(sPantalla arrayPantalla[], int len)
         {
             if (val_getUnsignedInt(&bTipoPantalla,"\nIngrese tipo pantalla:\n  LCD [0]\n  LED [1]\n","\nIngrese solo numeros 0 o 1\n",2,0,1)==0)
             {
-                if (val_getAlfanumerico(bNombre,"\nIngrese Nombre\n", "\nNombre invalido\n",3,50)==0) //hacer define en h para 50
+                if (val_getAlfanumerico(bNombre,"\nIngrese Nombre\n", "\nNombre invalido, ingrese nuevamente\n",3,50)==0) //hacer define en h para 50
                 {
-                    if (val_getAlfanumerico(bDireccion, "\nIngrese direccion\n", "\nDireccion invalido\n",3,50)==0)
+                    if (val_getAlfanumerico(bDireccion, "\nIngrese direccion\n", "\nDireccion invalida, ingrese nuevamente\n",3,50)==0)
                     {
 
-                        if(val_getPrecio(&bPrecio,"\nIngrese Precio\n","\nError:\n",2,0,9999)==0)
+                        if(val_getPrecio(&bPrecio,"\nIngrese Precio\n","\nValor invalido, ingrese nuevamente:\n",2,0,9999)==0)
                         {
                             strncpy(arrayPantalla[index].nombre,bNombre,51);
                             strncpy(arrayPantalla[index].direccion,bDireccion,51);

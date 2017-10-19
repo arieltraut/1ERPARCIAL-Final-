@@ -163,7 +163,7 @@ int info_listarClientes(sContrataciones arrayContratacion[], sPantalla arrayPant
     for (indiceCuit=0; indiceCuit<lenContrataciones; indiceCuit++)
     {
         if ( arrayContador[indiceCuit] != 0)
-             printf("La cantidad de contrataciones del CUIT: %s es %d\n",arrayClientes[indiceCuit],arrayContador[indiceCuit]);
+             printf("La cantidad de contrataciones del CUIT: %s es %d\n\n",arrayClientes[indiceCuit],arrayContador[indiceCuit]);
 
         for(indexContra=0; indexContra<lenContrataciones; indexContra++)
         {
@@ -174,32 +174,11 @@ int info_listarClientes(sContrataciones arrayContratacion[], sPantalla arrayPant
                 int indexPan = pantalla_buscarIndicePorId(arrayPantalla,lenPantalla,idPan);
                 float importeContra = arrayPantalla[indexPan].precio * arrayContratacion[indexContra].diasPublicacion;
 
-                printf("ID Contratacion: %d  Precio contratacion: %.2f\n\n",arrayContratacion[indexContra].id, importeContra);
+                printf("   > ID Contratacion: %d  Precio contratacion: %.2f\n\n",arrayContratacion[indexContra].id, importeContra);
             }
 
         }
     }
-       /*
-       printf("Pantalla flagOcupado? [0] = %d\n",arrayPantalla[0].flagOcupado);
-       printf("Pantalla flagOcupado? [1] = %d\n\n",arrayPantalla[1].flagOcupado);
-
-       printf("Contra flagOcupado? [0] = %d\n",arrayContratacion[0].flagOcupado);
-       printf("Contra flagOcupado? [1] = %d\n",arrayContratacion[1].flagOcupado);
-       printf("Contra flagOcupado? [2] = %d\n",arrayContratacion[2].flagOcupado);
-       printf("Contra flagOcupado? [3] = %d\n\n",arrayContratacion[3].flagOcupado);
-
-
-       printf("ArrayClientes\n");
-       printf("%s\n",arrayClientes[0]);
-       printf("%s\n",arrayClientes[1]);
-       printf("%s\n",arrayClientes[2]);
-       printf("%s\n\n",arrayClientes[3]);
-       printf("Array Contador\n");
-       printf("%d\n",arrayContador[0]);
-       printf("%d\n",arrayContador[1]);
-       printf("%d\n\n\n",arrayContador[2]);
-       */
-
     return retorno;
 }
 
@@ -267,13 +246,10 @@ int info_listarClienteConImporteMasAlto(sContrataciones arrayContratacion[], sPa
                 indexPan = pantalla_buscarIndicePorId(arrayPantalla,lenPantalla,idPan);
                 importeContra = arrayPantalla[indexPan].precio * arrayContratacion[indexContra].diasPublicacion;
                 acumulador+=importeContra;
-                //printf("%.2f\n",acumulador);
-                //system("pause");
             }
         }
         arrayFacturacion[iArrayClientes]=acumulador;
-        //printf("Acumulador copiado: %.2f\n\n",acumulador);
-        //system("pause");
+
     }
 
     float max = arrayFacturacion[0];
@@ -287,24 +263,8 @@ int info_listarClienteConImporteMasAlto(sContrataciones arrayContratacion[], sPa
         }
 
     }
+    printf("\n\n\nEl cliente con importe mas alto a facturar es: %s\n\n",arrayClientes[indexMax]);
 
-    printf("El cliente con importe mas alto a facturar es: %s\n\n",arrayClientes[indexMax]);
-
-    /*
-       printf("ArrayClientes\n");
-       printf("%s  ID: %d\n",arrayClientes[0],arrayIdClientes[0]);
-       printf("%s  ID: %d\n",arrayClientes[1],arrayIdClientes[1]);
-       printf("%s  ID: %d\n",arrayClientes[2],arrayIdClientes[2]);
-       printf("%s  ID: %d\n\n",arrayClientes[3],arrayIdClientes[3]);
-
-       printf("Array Facturacion\n");
-       printf("%.2f\n",arrayFacturacion[0]);  //200.00
-       printf("%.2f\n",arrayFacturacion[1]);  // 50.00
-       printf("%.2f\n",arrayFacturacion[2]);
-       printf("%.2f\n",arrayFacturacion[3]);
-       printf("%.2f\n",arrayFacturacion[4]);
-
-*/
     return retorno;
 }
 
@@ -402,7 +362,5 @@ void prueba(sContrataciones arrayContratacion[], sPantalla arrayPantalla[], int 
             arrayContratacion[indexVacio2].id = idNuevo2;
             arrayContratacion[indexVacio2].flagOcupado = 1;
         }
-
-
 }
 

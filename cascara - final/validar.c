@@ -193,7 +193,7 @@ int val_getCuit(char* destino, char* mensaje,char* mensajeError,int intentos,int
         {
             myFgets(buffer, limite ,stdin);
 
-            if((val_soloNumeros(buffer)) == -1 || (strlen(buffer) > 11) || (strlen(buffer) < 10))
+            if((val_soloNumeros(buffer)) == -1 || (strlen(buffer) > 11) || (strlen(buffer) < 11))
             {
                 printf(mensajeError);
                 continue;

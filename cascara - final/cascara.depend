@@ -1,0 +1,773 @@
+# depslib dependency file v1.0
+1506638068 source:e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad2.h"
+	<string.h>
+
+1506636908 e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+
+1506640300 source:e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad1.h"
+	<string.h>
+
+1506636908 e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.h
+
+1506639076 source:e:\utn\clasesprogramacion1\clase11\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad1.h"
+	"entidad2.h"
+
+1506638068 source:d:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad2.h"
+	<string.h>
+
+1506636908 d:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+
+1507213316 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+
+1507209406 l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.h
+
+1507220751 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad2.h"
+	"validar.h"
+
+1507220565 l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+	"entidad1.h"
+
+1507220626 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad1.h"
+	"entidad2.h"
+	"informes.h"
+
+1507218460 l:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.h
+
+1507216179 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507216179 l:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.h
+
+1507217050 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+	"informes.h"
+
+1507213316 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+
+1507209406 f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.h
+
+1507233118 f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+	"entidad1.h"
+
+1507216179 f:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.h
+
+1507233118 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad2.h"
+	"validar.h"
+
+1507234720 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+	"informes.h"
+
+1507234720 f:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.h
+
+1507216179 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507235254 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"informes.h"
+
+1507213316 source:d:\ariel\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+
+1507209406 d:\ariel\cascara\entidad1.h
+
+1507233118 d:\ariel\cascara\entidad2.h
+	"entidad1.h"
+
+1507245613 d:\ariel\cascara\validar.h
+
+1507233118 source:d:\ariel\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad2.h"
+	"validar.h"
+
+1507245929 source:d:\ariel\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"informes.h"
+
+1507245897 d:\ariel\cascara\informes.h
+
+1507248201 source:d:\ariel\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+	"informes.h"
+
+1507247565 source:d:\ariel\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507250348 source:d:\ariel\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"validar.h"
+
+1507249863 d:\ariel\cascara\contrataciones.h
+	"pantallas.h"
+
+1507247084 d:\ariel\cascara\pantallas.h
+
+1507248201 source:d:\ariel\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507236072 source:c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"validar.h"
+
+1507236072 c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\contrataciones.h
+	"pantallas.h"
+
+1507236072 c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\pantallas.h
+
+1507236072 c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\validar.h
+
+1507236072 source:c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"informes.h"
+
+1507236072 c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\informes.h
+
+1507324223 source:c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507324358 source:c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507323325 source:c:\users\ari\desktop\1erparcial-master\1erparcial-master\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+	"informes.h"
+
+1507693649 source:c:\users\alex\desktop\1erparcial\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"validar.h"
+
+1507695147 c:\users\alex\desktop\1erparcial\cascara\contrataciones.h
+	"pantallas.h"
+
+1507695769 c:\users\alex\desktop\1erparcial\cascara\pantallas.h
+	"contrataciones.h"
+
+1507645742 c:\users\alex\desktop\1erparcial\cascara\validar.h
+
+1507693339 source:c:\users\alex\desktop\1erparcial\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"informes.h"
+	"validar.h"
+
+1507480120 c:\users\alex\desktop\1erparcial\cascara\informes.h
+
+1507658706 source:c:\users\alex\desktop\1erparcial\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+	"informes.h"
+
+1507647238 source:c:\users\alex\desktop\1erparcial\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507464880 source:c:\users\alex\desktop\1erparcial\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507657230 source:c:\users\orozco pc\desktop\1erparcial\cascara\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"validar.h"
+
+1507657198 c:\users\orozco pc\desktop\1erparcial\cascara\cascara\contrataciones.h
+	"pantallas.h"
+
+1507464880 c:\users\orozco pc\desktop\1erparcial\cascara\cascara\pantallas.h
+
+1507645741 c:\users\orozco pc\desktop\1erparcial\cascara\cascara\validar.h
+
+1507658705 source:c:\users\orozco pc\desktop\1erparcial\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+	"informes.h"
+
+1507480120 c:\users\orozco pc\desktop\1erparcial\cascara\cascara\informes.h
+
+1507464880 source:c:\users\orozco pc\desktop\1erparcial\cascara\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507647237 source:c:\users\orozco pc\desktop\1erparcial\cascara\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507662529 source:c:\users\orozco pc\desktop\1erparcial\cascara\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"informes.h"
+	"validar.h"
+
+1507695543 c:\users\alex\desktop\1erparcial\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"validar.h"
+
+1507815899 source:c:\users\ari\desktop\1erparcial\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507780284 c:\users\ari\desktop\1erparcial\cascara\pantallas.h
+	"validar.h"
+
+1507780285 c:\users\ari\desktop\1erparcial\cascara\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507814631 c:\users\ari\desktop\1erparcial\cascara\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507645742 c:\users\ari\desktop\1erparcial\cascara\validar.h
+
+1507647238 source:c:\users\ari\desktop\1erparcial\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507647238 source:e:\utn\clasesprogramacion1\1erparcial\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507645742 e:\utn\clasesprogramacion1\1erparcial\cascara\validar.h
+
+1507647238 source:l:\utn\clasesprogramacion1\1erparcial\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507645742 l:\utn\clasesprogramacion1\1erparcial\cascara\validar.h
+
+1507780284 source:l:\utn\clasesprogramacion1\1erparcial\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507780285 l:\utn\clasesprogramacion1\1erparcial\cascara\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507780284 l:\utn\clasesprogramacion1\1erparcial\cascara\pantallas.h
+	"validar.h"
+
+1507746143 source:l:\utn\clasesprogramacion1\1erparcial\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507746143 l:\utn\clasesprogramacion1\1erparcial\cascara\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507781622 source:l:\utn\clasesprogramacion1\1erparcial\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1507780391 source:l:\utn\clasesprogramacion1\1erparcial\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507780284 source:c:\users\ari\desktop\1erparcial\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507781622 source:c:\users\ari\desktop\1erparcial\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1507781820 source:c:\users\ari\desktop\1erparcial\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507780284 source:c:\users\ari\desktop\1erparcial2\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507780285 c:\users\ari\desktop\1erparcial2\cascara\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507780284 c:\users\ari\desktop\1erparcial2\cascara\pantallas.h
+	"validar.h"
+
+1507645742 c:\users\ari\desktop\1erparcial2\cascara\validar.h
+
+1507781622 source:c:\users\ari\desktop\1erparcial2\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1507814631 c:\users\ari\desktop\1erparcial2\cascara\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507781820 source:c:\users\ari\desktop\1erparcial2\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507647238 source:c:\users\ari\desktop\1erparcial2\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507823277 source:c:\users\ari\desktop\1erparcial2\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507831721 source:c:\users\ari\desktop\1erparcial2\cascara - copia\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507780285 c:\users\ari\desktop\1erparcial2\cascara - copia\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507780284 c:\users\ari\desktop\1erparcial2\cascara - copia\pantallas.h
+	"validar.h"
+
+1507645742 c:\users\ari\desktop\1erparcial2\cascara - copia\validar.h
+
+1507832062 source:c:\users\ari\desktop\1erparcial2\cascara - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1507814631 c:\users\ari\desktop\1erparcial2\cascara - copia\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507781820 source:c:\users\ari\desktop\1erparcial2\cascara - copia\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507825144 source:c:\users\ari\desktop\1erparcial2\cascara - copia\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507833586 source:c:\users\ari\desktop\1erparcial2\cascara - copia\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507821456 source:c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507821456 c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507821456 c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\pantallas.h
+	"validar.h"
+
+1507821456 c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\validar.h
+
+1507867964 source:c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507866250 c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507867307 source:c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1507821456 source:c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507821456 source:c:\users\alex\desktop\1erparcial-master\1erparcial-master\cascara - final\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507930115 source:c:\users\ari\desktop\1erparcial2\cascara - final\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507928862 c:\users\ari\desktop\1erparcial2\cascara - final\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507821456 c:\users\ari\desktop\1erparcial2\cascara - final\pantallas.h
+	"validar.h"
+
+1507821456 c:\users\ari\desktop\1erparcial2\cascara - final\validar.h
+
+1507928862 source:c:\users\ari\desktop\1erparcial2\cascara - final\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507926402 c:\users\ari\desktop\1erparcial2\cascara - final\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507921487 source:c:\users\ari\desktop\1erparcial2\cascara - final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1507821456 source:c:\users\ari\desktop\1erparcial2\cascara - final\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507821456 source:c:\users\ari\desktop\1erparcial2\cascara - final\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1508156996 source:c:\users\alex\desktop\1erparcial\cascara - final\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507995723 c:\users\alex\desktop\1erparcial\cascara - final\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1507821456 c:\users\alex\desktop\1erparcial\cascara - final\pantallas.h
+	"validar.h"
+
+1507821456 c:\users\alex\desktop\1erparcial\cascara - final\validar.h
+
+1507928864 c:\users\alex\desktop\1erparcial\cascara - final\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1508154624 source:c:\users\alex\desktop\1erparcial\cascara - final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1508000465 source:c:\users\alex\desktop\1erparcial\cascara - final\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507821456 source:c:\users\alex\desktop\1erparcial\cascara - final\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1508001390 source:c:\users\alex\desktop\1erparcial\cascara - final\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1508001392 source:c:\users\airi\desktop\cascara - final\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1507928864 c:\users\airi\desktop\cascara - final\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1507821456 c:\users\airi\desktop\cascara - final\pantallas.h
+	"validar.h"
+
+1507821456 c:\users\airi\desktop\cascara - final\validar.h
+
+1508156998 source:c:\users\airi\desktop\cascara - final\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1507995724 c:\users\airi\desktop\cascara - final\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1508154626 source:c:\users\airi\desktop\cascara - final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1508000466 source:c:\users\airi\desktop\cascara - final\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
+1507821456 source:c:\users\airi\desktop\cascara - final\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1508435734 source:c:\users\ari\desktop\parcial 1\cascara - final\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+
+1508433648 c:\users\ari\desktop\parcial 1\cascara - final\contrataciones.h
+	"pantallas.h"
+	"validar.h"
+
+1508433648 c:\users\ari\desktop\parcial 1\cascara - final\pantallas.h
+	"validar.h"
+
+1508436958 c:\users\ari\desktop\parcial 1\cascara - final\validar.h
+
+1508432286 source:c:\users\ari\desktop\parcial 1\cascara - final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"pantallas.h"
+	"validar.h"
+	"informes.h"
+
+1508437416 c:\users\ari\desktop\parcial 1\cascara - final\informes.h
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+
+1508437530 source:c:\users\ari\desktop\parcial 1\cascara - final\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1508436511 source:c:\users\ari\desktop\parcial 1\cascara - final\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"informes.h"
+
+1508432477 source:c:\users\ari\desktop\parcial 1\cascara - final\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+
